@@ -3,12 +3,10 @@ export default function About() {
     <div>
       <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        My name is Tanner Shank, I am an aspiring full stack web developer coming out of the University of Minnesota's bootcamp program!
+      </p>
+      <p>
+        I'm looking forward to using my years in hospitality, as well as my new knowledge of web development to become a great team asset!
       </p>
     </div>
   );

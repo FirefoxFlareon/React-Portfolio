@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard({ project }) {
+export default function ProjectCard({ project }) {
     return (
         <div className="project-card">
             <h3>{project.title}</h3>
@@ -12,5 +12,3 @@ function ProjectCard({ project }) {
         </div>
     )
 };
-
-export default ProjectCard

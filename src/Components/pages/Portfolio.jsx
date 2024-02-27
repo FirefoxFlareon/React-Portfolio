@@ -2,7 +2,7 @@ import React from 'react';
 import projects from '../projects/projectList';
 import ProjectCard from '../projects/projectCard';
 
-function Portfolio() {
+export default function Portfolio() {
   return (
     <div className="portfolio">
       {projects.map(project => (
@@ -11,5 +11,3 @@ function Portfolio() {
     </div>
   );
 }
-
-export default Portfolio;
