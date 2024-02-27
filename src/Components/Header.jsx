@@ -1,9 +1,7 @@
-// Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 
 export default function Header() {
-  // The Navbar UI component will render each of the Link elements in the links prop
   return (
     <Navbar
       links={[
@@ -11,8 +9,11 @@ export default function Header() {
           Home
         </Link>,
         <Link key={2} className="nav-link text-light" to="/about">
-          About Us
+          About Me
         </Link>,
+        <Link key={3} className="nav-link text-light" to="/portfolio">
+        Portfolio
+      </Link>
       ]}
     />
   );
