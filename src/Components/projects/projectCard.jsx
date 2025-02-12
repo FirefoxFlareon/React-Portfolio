@@ -1,14 +1,21 @@
 import React from "react";
+import './projectCard.css';
 
 export default function ProjectCard({ project }) {
     return (
         <div className="project-card">
-            <h3>{project.title}</h3>
-            <a href={project.repo}> GitHub Repo</a>
-            <br></br>
-            <a href={project.deployment}>{project.deployment}</a>
-            <br></br>
-            <img src={project.image} alt={project.title} style={{ width: '75%', height: '75%' }} />
+          <h2 className="project-title">{project.title}</h2>
+          <img src={project.image} alt={project.title} className="project-image" />
+          <div className="project-links">
+            <a href={project.repo} target="_blank" rel="noopener noreferrer">
+              Repository
+            </a>
+            {project.deployment && (
+              <a href={project.deployment} target="_blank" rel="noopener noreferrer">
+                Deployment
+              </a>
+            )}
+          </div>
         </div>
-    )
-};
+      );
+    };

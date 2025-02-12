@@ -1,0 +1,44 @@
+.project-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff; /* Add background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for card effect */
+    transition: transform 0.2s; /* Add transition for hover effect */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Add margin below the image */
+  }
+  
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.2s;
+  }
+  
+  .project-links a:hover {
+    color: #0056b3;
+  }
